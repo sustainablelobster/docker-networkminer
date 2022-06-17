@@ -12,5 +12,5 @@ docker build -t networkminer .
 
 ```
 docker run --rm -v <FULL PATH OF PCAP FILE>:/input.pcap \
-    -v <FULL PATH OF OUTPUT DIR>/outdir networkminer
+    -v <FULL PATH OF OUTPUT DIR>:/outdir networkminer
 ```
